@@ -1,0 +1,736 @@
+                motion_movesteps_top: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_movesteps_top", "png"),
+                            width: 48,
+                            height: 48,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+
+                motion_movesteps_bottom: {
+                    json: {
+                        id: "motion_movesteps_bottom",
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_movesteps_bottom", "png"),
+                            width: 48,
+                            height: 48,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                motion_movesteps_left: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_movesteps_left", "png"),
+                            width: 53,
+                            height: 36,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                    
+                motion_movesteps_right: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_movesteps_right", "png"),
+                            width: 53,
+                            height: 36,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                motion_turnleft_deg: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_turnleft_deg", "png"),
+                            width: 53,
+                            height: 47,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                    
+                motion_turnright_deg: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_turnright_deg", "png"),
+                            width: 53,
+                            height: 47,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+
+                motion_goto: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_goto_actor", "png"),
+                            width: 53,
+                            height: 47,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "TO"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    }
+                },
+
+                motion_cm_goto_menu: {
+                    json: function() {
+                        return a("TO", t, s, [["", ""]], r.a.Categories.motion)
+                    }
+                },
+                
+                motion_cm_goto: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_goto_actor", "png"),
+                            width: 53,
+                            height: 47,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "TO"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                motion_goto__mouse_pointer: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_goto__mouse_pointer", "png"),
+                            width: 53,
+                            height: 42,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                motion_goto__random_position: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("motion_goto__random_position", "png"),
+                            width: 53,
+                            height: 47,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.motion,
+                        extensions: ["colours_motion", "shape_statement"]
+                    },
+                looks_sayforsecs_shorttime: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_sayforsecs_shorttime", "png"),
+                            width: 42,
+                            height: 36,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "MESSAGE"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_nextcostume: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_nextcostume", "png"),
+                            width: 63,
+                            height: 44,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    }
+                },
+                looks_nextbackdrop: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_nextbackdrop", "png"),
+                            width: 63,
+                            height: 44,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    }
+                },
+                looks_cm_switchcostumeto: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_nextcostume", "png"),
+                            width: 63,
+                            height: 44,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "COSTUME"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_cm_switchbackdropto: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_nextbackdrop", "png"),
+                            width: 63,
+                            height: 44,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "BACKDROP"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changesizeby_zoomin: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changesizeby_zoomin", "png"),
+                            width: 50,
+                            height: 41,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changesizeby_zoomout: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changesizeby_zoomout", "png"),
+                            width: 49,
+                            height: 39,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_setsizeto_reset: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_setsizeto_reset", "png"),
+                            width: 51,
+                            height: 39,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__fisheye_minus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__fisheye_minus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__fisheye_plus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__fisheye_plus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__mosaic_minus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__mosaic_minus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__mosaic_plus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__mosaic_plus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__ghost_minus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__ghost_minus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__ghost_plus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__ghost_plus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__whirl_minus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__whirl_minus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                looks_changeeffectby__whirl_plus: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("looks_changeeffectby__whirl_plus", "png"),
+                            width: 130,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.looks,
+                        extensions: ["colours_looks", "shape_statement"]
+                    },
+                sound_play: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("sound_play", "png"),
+                            width: 45,
+                            height: 33,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "SOUND_MENU"
+                        }],
+                        category: r.a.Categories.sound,
+                        extensions: ["colours_sounds", "shape_statement"]
+                    }
+                },
+                sound_stopallsounds: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("sound_stopallsounds", "png"),
+                            width: 45,
+                            height: 33,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.sound,
+                        extensions: ["colours_sounds", "shape_statement"]
+                    }
+                event_whenflagclicked: {
+                    json: m
+                },
+                event_whenkeypressed: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: n.b.empty1pxImgUrl,
+                            width: 34,
+                            height: 1,
+                            alt: "flag"
+                        }, {
+                            type: "field_dropdown",
+                            name: "KEY_OPTION",
+                            options: [[r.a.Msg.EVENT_WHENKEYPRESSED_SPACE, "space"], ["← ".concat(r.a.Msg.EVENT_WHENKEYPRESSED_LEFT), "left arrow"], ["→ ".concat(r.a.Msg.EVENT_WHENKEYPRESSED_RIGHT), "right arrow"], ["↓ ".concat(r.a.Msg.EVENT_WHENKEYPRESSED_DOWN), "down arrow"], ["↑ ".concat(r.a.Msg.EVENT_WHENKEYPRESSED_UP), "up arrow"], [r.a.Msg.EVENT_WHENKEYPRESSED_ANY, "any"], ["A", "a"], ["B", "b"], ["C", "c"], ["D", "d"], ["E", "e"], ["F", "f"], ["G", "g"], ["H", "h"], ["I", "i"], ["J", "j"], ["K", "k"], ["L", "l"], ["M", "m"], ["N", "n"], ["O", "o"], ["P", "p"], ["Q", "q"], ["R", "r"], ["S", "s"], ["T", "t"], ["U", "u"], ["V", "v"], ["W", "w"], ["X", "x"], ["Y", "y"], ["Z", "z"], ["0", "0"], ["1", "1"], ["2", "2"], ["3", "3"], ["4", "4"], ["5", "5"], ["6", "6"], ["7", "7"], ["8", "8"], ["9", "9"]]
+                        }],
+                        category: r.a.Categories.event,
+                        extensions: ["colours_event", "shape_hat"]
+                    }
+                },
+                event_whenthisspriteclicked: {
+                    json: m
+                },
+                event_whenstageclicked: {
+                    json: m
+                },
+                event_whenstagetouched: {
+                    json: m
+                },
+                event_whenbroadcastreceivedv2: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            name: "BROADCAST_RECEIVED_IMAGE",
+                            src: R("greenReceive", "png"),
+                            width: 50,
+                            height: 55,
+                            alt: "flag"
+                        }, {
+                            type: "field_dropdown",
+                            name: "BROADCAST_RECEIVED",
+                            options: ["green", "pink", "blue", "purple", "yellow", "red"].map(function(e) {
+                                return [{
+                                    src: R("".concat(e, "Receive"), "png"),
+                                    width: 60,
+                                    height: 66,
+                                    alt: ""
+                                }, e]
+                            })
+                        }],
+                        category: r.a.Categories.event,
+                        extensions: ["colours_event", "shape_hat"],
+                        mutator: "bellcode_broadcast_received_mutator"
+                    }
+                },
+                event_broadcastv2: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            name: "BROADCAST_IMAGE",
+                            src: R("greenSend", "png"),
+                            width: 62,
+                            height: 38,
+                            alt: "flag"
+                        }, {
+                            type: "field_dropdown",
+                            name: "BROADCAST_SEND",
+                            options: ["green", "pink", "blue", "purple", "yellow", "red"].map(function(e) {
+                                return [{
+                                    src: R("".concat(e, "Send"), "png"),
+                                    width: 62,
+                                    height: 48,
+                                    alt: ""
+                                }, e]
+                            })
+                        }],
+                        category: r.a.Categories.event,
+                        extensions: ["colours_event", "shape_statement"],
+                        mutator: "bellcode_broadcast_mutator"
+                    },
+                    primitive: function(e, t) {
+                        var a = e.BROADCAST_SEND;
+                        a && t.startHats("event_whenbroadcastreceivedv2", {
+                            BROADCAST_RECEIVED: a
+                        })
+                    }
+                },
+                event_whentouchingotherobjects: {
+                    json: m,
+                    primitive: function(t, a) {
+                        for (var n = e.runtime.targets.filter(function(e) {
+                            return !e.isStage && e.sprite.name !== a.target.sprite.name
+                        }).map(function(e) {
+                            return e.sprite.name
+                        }), o = 0; o < n.length; o++)
+                            if (a.runtime.getOpcodeFunction("sensing_touchingobject")(Object.assign({
+                                TOUCHINGOBJECTMENU: n[o]
+                            }, t), a))
+                                return !0
+                    }
+                },
+                event_whentouchingtargetobject: {
+                    json: function() {
+                        return function(e, t, a, o, r) {
+                            var i = arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : null;
+                            return {
+                                message0: e,
+                                args0: [{
+                                    type: "field_image",
+                                    src: n.b.empty1pxImgUrl,
+                                    width: 30,
+                                    height: 30,
+                                    alt: "flag"
+                                }, {
+                                    type: "field_image_dropdown",
+                                    name: t,
+                                    options: function() {
+                                        return r.concat(a())
+                                    }
+                                }],
+                                colour: o.primary,
+                                colourSecondary: o.secondary,
+                                colourTertiary: o.tertiary,
+                                extensions: ["shape_hat"],
+                                category: i
+                            }
+                        }("    %1 %2", "TOUCHINGOBJECTMENU", t, o, [["", ""]], r.a.Categories.event)
+                    },
+                    primitive: function(e, t) {
+                        if (t.runtime.getOpcodeFunction("sensing_touchingobject")(e, t))
+                            return !0
+                    }
+                },
+                control_wait: {
+                    json: {
+                        message0: "%1 %2",
+                        args0: [{
+                            type: "field_image",
+                            src: R("control_wait", "png"),
+                            width: 44,
+                            height: 44,
+                            alt: "flag"
+                        }, {
+                            type: "input_value",
+                            name: "DURATION"
+                        }],
+                        category: r.a.Categories.control,
+                        extensions: ["colours_control", "shape_statement"]
+                    }
+                },
+                control_repeat: {
+                    json: {
+                        message0: "%1 %2",
+                        message1: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("control_repeat", "png"),
+                            width: 43.5,
+                            height: 48,
+                            alt: "*",
+                            flip_rtl: !0
+                        }, {
+                            type: "input_value",
+                            name: "TIMES"
+                        }],
+                        args1: [{
+                            type: "input_statement",
+                            name: "SUBSTACK"
+                        }],
+                        category: r.a.Categories.control,
+                        extensions: ["colours_control", "shape_statement"]
+                    }
+                },
+                control_forever: {
+                    json: {
+                        message0: "%1",
+                        message1: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("control_forever", "png"),
+                            width: 60,
+                            height: 44,
+                            alt: "flag"
+                        }],
+                        args1: [{
+                            type: "input_statement",
+                            name: "SUBSTACK"
+                        }],
+                        category: r.a.Categories.control,
+                        extensions: ["colours_control", "shape_end"]
+                    }
+                },
+                control_stop_other_scripts_in_sprite: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("control_stop_other_scripts_in_sprite", "png"),
+                            width: 60,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.control,
+                        extensions: ["colours_control", "shape_statement"]
+                    },
+                    primitive: function(e, t) {
+                        t.stopOtherTargetThreads()
+                    }
+                },
+                control_stop_all_scripts: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: "",
+                            width: 60,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: r.a.Categories.control,
+                        extensions: ["colours_control", "shape_end"]
+                    },
+                    primitive: function(e, t) {
+                        setTimeout(function() {
+                            return t.stopAll()
+                        }, 0)
+                    }
+                },
+                pen_pen_down: {
+                    json: {
+                        message0: "%1",
+                        args0: [{
+                            type: "field_image",
+                            src: R("pen_penDown", "png"),
+                            width: 70,
+                            height: 50,
+                            alt: "flag"
+                        }],
+                        category: "Pen",
+                        extensions: ["colours_pen", "shape_statement", "scratch_extension"]
+                    },
+                    pen_pen_up: {
+                        json: {
+                            message0: "%1",
+                            args0: [{
+                                type: "field_image",
+                                src: R("pen_penUp", "png"),
+                                width: 70,
+                                height: 50,
+                                alt: "flag"
+                            }],
+                            category: "Pen",
+                            extensions: ["colours_pen", "shape_statement", "scratch_extension"]
+                        },
+                        primitive: function(e, t) {
+                            return t.runtime.getOpcodeFunction("pen_penUp")(Object.assign({}, e), t)
+                        }
+                    },
+                    pen_set_pen_color_to_color: {
+                        json: {
+                            message0: "%1 %2",
+                            args0: [{
+                                type: "field_image",
+                                src: R("pen_setPenColorToColor", "png"),
+                                width: 47,
+                                height: 52,
+                                alt: "flag"
+                            }, {
+                                type: "input_value",
+                                name: "COLOR"
+                            }],
+                            category: "Pen",
+                            extensions: ["colours_pen", "shape_statement", "scratch_extension"]
+                        },
+                        primitive: function(e, t) {
+                            return t.runtime.getOpcodeFunction("pen_setPenColorToColor")(Object.assign({}, e), t)
+                        }
+                    },
+                    pen_changePenSizeBy_up: {
+                        json: {
+                            message0: "%1",
+                            args0: [{
+                                type: "field_image",
+                                src: R("pen_changePenSizeBy_up", "png"),
+                                width: 70,
+                                height: 50,
+                                alt: "flag"
+                            }],
+                            category: "Pen",
+                            extensions: ["colours_pen", "shape_statement", "scratch_extension"]
+                        },
+                        primitive: function(e, t) {
+                            return t.runtime.getOpcodeFunction("pen_changePenSizeBy")(Object.assign({
+                                SIZE: 5
+                            }, e), t)
+                        }
+                    },
+                    pen_changePenSizeBy_down: {
+                        json: {
+                            message0: "%1",
+                            args0: [{
+                                type: "field_image",
+                                src: R("pen_changePenSizeBy_down", "png"),
+                                width: 70,
+                                height: 50,
+                                alt: "flag"
+                            }],
+                            category: "Pen",
+                            extensions: ["colours_pen", "shape_statement", "scratch_extension"]
+                        },
+                        primitive: function(e, t) {
+                            return t.runtime.getOpcodeFunction("pen_changePenSizeBy")(Object.assign({
+                                SIZE: -5
+                            }, e), t)
+                        }
+                    },
+                    pen_clear_pen: {
+                        json: {
+                            message0: "%1",
+                            args0: [{
+                                type: "field_image",
+                                src: R("pen_clear_pen", "png"),
+                                width: 70,
+                                height: 50,
+                                alt: "flag"
+                            }],
+                            category: "Pen",
+                            extensions: ["colours_pen", "shape_statement", "scratch_extension"]
+                        },
+                        primitive: function(e, t) {
+                            return t.runtime.getOpcodeFunction("pen_clear")(e, t)
+                        }
+                    }
+                }
+            },
